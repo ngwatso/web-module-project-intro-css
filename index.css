@@ -30,3 +30,7 @@ footer, header, hgroup, menu, nav, section {
 * {
     box-sizing: border-box;
 }
+
+h1 {
+    color: blue;
+}
