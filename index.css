@@ -25,8 +25,6 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
-/* every element is a border-box */
-
 * {
     box-sizing: border-box;
 }
@@ -37,6 +35,7 @@ html {
 
 body {
     width: 100rem;
+    margin: 0 auto;
 }
 h1 {
     color: black;
@@ -64,7 +63,12 @@ h1 {
 }
 
 .second {
-
+    height: 20rem;
+    width: 90%;
+    margin: 0 auto;
+    border: .1rem;
+    padding: 2rem;
+    background-color: #DDB9A3;
 }
 
 .third {
@@ -75,9 +79,8 @@ h1 {
     margin: 0 auto;
 }
 
-div {
-    margin: 5rem;
-    padding: 5rem;
-    border: 2rem;
-    display: inline-block;
+#navigation {
+    width: 100%;
+    height: 30rem;
+    margin: 0 auto;
 }
