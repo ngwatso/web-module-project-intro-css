@@ -35,6 +35,9 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    width: 100rem;
+}
 h1 {
     color: black;
     font-size: 3rem;
@@ -50,4 +53,31 @@ h1 {
 
 #get {
     background-color: #FFCD69;
+}
+
+.picone {
+    display: inline-block;
+}
+
+.first {
+    display: inline-block;
+}
+
+.second {
+
+}
+
+.third {
+    margin: 0 auto;
+}
+
+.fourth {
+    margin: 0 auto;
+}
+
+div {
+    margin: 5rem;
+    padding: 5rem;
+    border: 2rem;
+    display: inline-block;
 }
